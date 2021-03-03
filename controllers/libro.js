@@ -1,6 +1,6 @@
 
 exports.getlibro=(req,res,next)=>{
-    res.json({mensaje:"Se devolvio el libro por id con get"})
+    res.json({mensaje:"Se devolvio el libro por id con el method get"})
 }
 exports.getlibros=(req,res,next)=>{
     let lista=[]

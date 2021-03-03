@@ -5,3 +5,4 @@ const data=new mongoose.Schema({
     apellido:String
 })
 module.exports=mongoose.model("Nombre ",data);
+//exportando todo

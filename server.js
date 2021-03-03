@@ -26,6 +26,7 @@ const server=app.listen(PORT,()=>{
   }
 );
 process.on('unhandledRejection',(err,promise)=>{
-  console.log("errores",err.message);
+
+  console.log("errores dados",err.message);
   server.close(()=>process.exit(1));
 })
